@@ -48,7 +48,7 @@ Certifique-se de ter o Node.js (versão 18.x ou superior) e o npm (ou yarn/pnpm)
 
 2.  **Instale as dependências**:
     \`\`\`bash
-    npm install
+    # yarn (recomendado)
     # ou yarn install
     # ou pnpm install
     \`\`\`
@@ -58,8 +58,8 @@ Certifique-se de ter o Node.js (versão 18.x ou superior) e o npm (ou yarn/pnpm)
 1.  **Inicie o servidor de desenvolvimento**:
     \`\`\`bash
     npm run dev
-    # ou yarn dev
-    # ou pnpm dev
+    yarn dev (recomendado)
+    pnpm dev
     \`\`\`
 
 2.  **Acesse a aplicação**:
