@@ -41,26 +41,18 @@ Certifique-se de ter o Node.js (versão 18.x ou superior) e o npm (ou yarn/pnpm)
 ### Instalação
 
 1.  **Clone o repositório (se aplicável)**:
-    \`\`\`bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd form-builder
-    \`\`\`
 
 2.  **Instale as dependências**:
-    \`\`\`bash
-    # yarn (recomendado)
-    # ou yarn install
-    # ou pnpm install
-    \`\`\`
+    ### yarn (recomendado)
+    ### ou yarn install
+    ### ou pnpm install
 
 ### Executando o Projeto
 
 1.  **Inicie o servidor de desenvolvimento**:
-    \`\`\`bash
-    npm run dev
-    yarn dev (recomendado)
-    pnpm dev
-    \`\`\`
+    ### npm run dev
+    ### yarn dev (recomendado)
+    ### pnpm dev
 
 2.  **Acesse a aplicação**:
     Abra seu navegador e navegue para `http://localhost:3000`.
