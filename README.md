@@ -67,18 +67,18 @@ Certifique-se de ter o Node.js (versão 18.x ou superior) e o npm (ou yarn/pnpm)
 
 ## 💡 Uso
 
-*   **Criar Formulários**: Na página inicial (`/`), você pode adicionar um título ao formulário e começar a adicionar perguntas.
+*   **Criar Formulários**: Na página inicial (`/create`), você pode adicionar um título ao formulário e começar a adicionar perguntas.
     *   Selecione o tipo de pergunta (Sim/Não, Múltipla Escolha, etc.).
     *   Adicione opções ou sugestões de resposta conforme o tipo.
     *   Marque a pergunta como "Obrigatória" se necessário.
     *   Habilite "Condição de Exibição" para que a pergunta apareça apenas se uma pergunta anterior tiver uma resposta específica.
     *   Habilite "Sub-Pergunta" para adicionar uma pergunta aninhada que também pode ter sua própria condição.
-*   **Visualizar Formulários Criados**: Clique no botão "Ver Formulários Criados" na página inicial ou navegue para `/preview`.
+*   **Visualizar Formulários Criados**: Clique no botão "Ver Formulários Criados" na página inicial ou navegue para `/`.
     *   Nesta página, você verá uma lista de todos os formulários salvos.
     *   Clique em "Visualizar" para preencher um formulário específico.
     *   Clique em "Excluir" para remover um formulário.
     *   A lista de formulários suporta scroll infinito para carregar mais formulários conforme você rola.
-*   **Preencher Formulários**: Na página de visualização de um formulário (`/preview/[id]`), preencha as respostas. As respostas são salvas no `localStorage`.
+*   **Preencher Formulários**: Na página de visualização de um formulário (`/preview/id]`), preencha as respostas. As respostas são salvas no `localStorage`.
 
 ## 💾 Persistência de Dados
 
